@@ -7,21 +7,13 @@ import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-/**
- * Serveur basique TCP
- */
-public class ServeurTCP
-{
-
+public class ServeurTCP{
 	public static void main(String[] args) throws Exception
 	{
 		ServeurTCP serveurTCP = new ServeurTCP();
 		serveurTCP.execute();
 		
 	}
-		
-		
-
 	private void execute() throws IOException
 	{
 		//
